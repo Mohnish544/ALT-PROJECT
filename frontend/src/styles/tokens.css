@@ -1,0 +1,182 @@
+/* ============================================================
+   MedLens Design Tokens
+   ============================================================
+   All design values as CSS custom properties.
+   Import this file first in global.css.
+   
+   Color philosophy:
+   - Deep teal primary (#1a6b7a) — trustworthy, medical, calm
+   - Warm off-white backgrounds — not sterile clinical white
+   - Restrained accent usage — color carries meaning, not decoration
+   - Sufficient contrast (WCAG AA minimum throughout)
+   ============================================================ */
+
+:root {
+  /* ── Brand ──────────────────────────────────────────────── */
+  --color-brand-primary:    #1a6b7a;
+  --color-brand-primary-hv: #155a67;
+  --color-brand-accent:     #2e9e8f;
+  --color-brand-accent-hv:  #268880;
+  --color-brand-light:      #e8f4f6;
+  --color-brand-lighter:    #f0f8f9;
+
+  /* ── Backgrounds ────────────────────────────────────────── */
+  --color-bg-base:          #f5f4f0;
+  --color-bg-surface:       #ffffff;
+  --color-bg-surface-alt:   #f0efeb;
+  --color-bg-sidebar:       #1c2b30;
+  --color-bg-sidebar-hv:    #243740;
+  --color-bg-sidebar-active:#2e4a52;
+  --color-bg-input:         #ffffff;
+  --color-bg-code:          #f5f4f0;
+
+  /* ── Text ───────────────────────────────────────────────── */
+  --color-text-primary:     #1a1a18;
+  --color-text-secondary:   #5a5a55;
+  --color-text-tertiary:    #8a8a84;
+  --color-text-inverse:     #ffffff;
+  --color-text-sidebar:     #c8d4d7;
+  --color-text-sidebar-active: #ffffff;
+  --color-text-brand:       #1a6b7a;
+  --color-text-link:        #1a6b7a;
+
+  /* ── Borders ────────────────────────────────────────────── */
+  --color-border:           #d4d2cc;
+  --color-border-subtle:    #e8e7e2;
+  --color-border-strong:    #b4b2ac;
+  --color-border-brand:     #1a6b7a;
+  --color-border-sidebar:   #2e4a52;
+
+  /* ── Semantic Colors ────────────────────────────────────── */
+  --color-success:          #2a7a4b;
+  --color-success-bg:       #edf7f1;
+  --color-success-border:   #a8d5b8;
+
+  --color-warning:          #8a6914;
+  --color-warning-bg:       #fef9ed;
+  --color-warning-border:   #ddb954;
+
+  --color-error:            #c0392b;
+  --color-error-bg:         #fdf0ee;
+  --color-error-border:     #e8a8a2;
+
+  --color-info:             #1a6b7a;
+  --color-info-bg:          #e8f4f6;
+  --color-info-border:      #8ec8d4;
+
+  /* ── Source type colors ─────────────────────────────────── */
+  --color-source-doc:       #1a6b7a;   /* Document source */
+  --color-source-doc-bg:    #e8f4f6;
+  --color-source-kb:        #6b4a1a;   /* Knowledge base source */
+  --color-source-kb-bg:     #f6f0e8;
+  --color-source-combined:  #2a7a4b;   /* Combined source */
+  --color-source-combined-bg: #edf7f1;
+
+  /* ── Shadows ────────────────────────────────────────────── */
+  --shadow-xs:  0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm:  0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md:  0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg:  0 10px 15px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(0, 0, 0, 0.04);
+  --shadow-focus: 0 0 0 3px rgba(26, 107, 122, 0.25);
+
+  /* ── Typography ─────────────────────────────────────────── */
+  --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+  --font-mono:  'IBM Plex Mono', 'Fira Code', Consolas, monospace;
+
+  --text-xs:    0.6875rem;   /* 11px */
+  --text-sm:    0.8125rem;   /* 13px */
+  --text-base:  0.9375rem;   /* 15px */
+  --text-md:    1rem;        /* 16px */
+  --text-lg:    1.125rem;    /* 18px */
+  --text-xl:    1.25rem;     /* 20px */
+  --text-2xl:   1.5rem;      /* 24px */
+  --text-3xl:   1.875rem;    /* 30px */
+
+  --lh-tight:   1.25;
+  --lh-snug:    1.4;
+  --lh-normal:  1.6;
+  --lh-relaxed: 1.75;
+
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-semibold:600;
+  --fw-bold:    700;
+
+  /* ── Spacing ────────────────────────────────────────────── */
+  --space-1:  0.25rem;   /* 4px  */
+  --space-2:  0.5rem;    /* 8px  */
+  --space-3:  0.75rem;   /* 12px */
+  --space-4:  1rem;      /* 16px */
+  --space-5:  1.25rem;   /* 20px */
+  --space-6:  1.5rem;    /* 24px */
+  --space-8:  2rem;      /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-16: 4rem;      /* 64px */
+
+  /* ── Border Radius ──────────────────────────────────────── */
+  --radius-sm:  3px;
+  --radius-md:  6px;
+  --radius-lg:  8px;
+  --radius-xl:  12px;
+  --radius-full:9999px;
+
+  /* ── Layout ─────────────────────────────────────────────── */
+  --sidebar-w:       220px;
+  --sidebar-w-collapsed: 56px;
+  --header-h:        56px;
+  --content-max-w:   1200px;
+  --chat-max-w:      740px;
+
+  /* ── Transitions ────────────────────────────────────────── */
+  --transition-fast:   150ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow:   300ms ease;
+
+  /* ── Z-index ────────────────────────────────────────────── */
+  --z-sidebar:  100;
+  --z-header:   90;
+  --z-dropdown: 200;
+  --z-modal:    300;
+  --z-toast:    400;
+}
+
+/* ── Dark Mode ───────────────────────────────────────────── */
+[data-theme="dark"] {
+  --color-bg-base:        #151918;
+  --color-bg-surface:     #1e2420;
+  --color-bg-surface-alt: #242c29;
+  --color-bg-sidebar:     #111716;
+  --color-bg-sidebar-hv:  #1a2220;
+  --color-bg-sidebar-active: #243430;
+  --color-bg-input:       #1e2420;
+  --color-bg-code:        #242c29;
+
+  --color-text-primary:   #e8e6e0;
+  --color-text-secondary: #9a9890;
+  --color-text-tertiary:  #6a6860;
+  --color-text-sidebar:   #8a9e9a;
+  --color-text-sidebar-active: #e8e6e0;
+
+  --color-border:         #2e3833;
+  --color-border-subtle:  #242c29;
+  --color-border-strong:  #3e4a47;
+
+  --color-brand-light:    #1a2e32;
+  --color-brand-lighter:  #152428;
+
+  --color-success-bg:     #0e2018;
+  --color-warning-bg:     #201a08;
+  --color-error-bg:       #200e0c;
+  --color-info-bg:        #0e2024;
+
+  --color-source-doc-bg:  #0e2024;
+  --color-source-kb-bg:   #201808;
+  --color-source-combined-bg: #0e2018;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,179 @@
+PATIENT CLINICAL NOTE — SYNTHETIC SAMPLE
+=========================================
+[Note: This document is entirely synthetic and contains no real patient data.
+It is provided as a demo for the MedLens system.]
+
+PATIENT INFORMATION
+-------------------
+Name: [De-identified]
+Age: 58 years
+Sex: Male
+Date of Visit: 2024-08-15
+Attending Physician: Dr. [De-identified]
+Department: Internal Medicine / Endocrinology
+
+CHIEF COMPLAINT
+---------------
+Routine follow-up for Type 2 Diabetes Mellitus and Essential Hypertension.
+Patient reports mild fatigue over the past 4 weeks and occasional dizziness
+upon standing.
+
+HISTORY OF PRESENT ILLNESS
+---------------------------
+The patient is a 58-year-old male with a 12-year history of Type 2 Diabetes
+Mellitus (DM) and a 7-year history of Essential Hypertension (HTN). He
+presents today for a scheduled 3-month follow-up visit.
+
+He reports his blood glucose levels have been erratic, with fasting readings
+ranging from 135–185 mg/dL. He acknowledges poor dietary adherence over the
+past month due to personal stressors. He denies chest pain, shortness of
+breath, syncope, or significant weight changes.
+
+His blood pressure at home has been consistently in the range of 140–150
+systolic and 88–95 diastolic, per his home log. He takes his antihypertensive
+medications regularly but occasionally misses his morning Metformin dose.
+
+PAST MEDICAL HISTORY
+--------------------
+1. Type 2 Diabetes Mellitus — diagnosed 2012
+2. Essential Hypertension — diagnosed 2017
+3. Dyslipidemia — diagnosed 2019
+4. Mild Chronic Kidney Disease (CKD) Stage 2 — eGFR 68 mL/min/1.73m²
+5. History of Non-ST-Elevation Myocardial Infarction (NSTEMI) — 2020, managed medically
+
+MEDICATIONS
+-----------
+1. Metformin 500 mg — twice daily (morning and evening, with meals)
+2. Lisinopril 10 mg — once daily (morning)
+3. Atorvastatin 20 mg — once daily (bedtime)
+4. Aspirin 81 mg — once daily
+5. Amlodipine 5 mg — once daily (for refractory hypertension)
+6. Empagliflozin 10 mg — once daily (added 6 months ago for cardiovascular protection)
+
+ALLERGIES
+---------
+No known drug allergies (NKDA).
+
+FAMILY HISTORY
+--------------
+Father: Type 2 Diabetes, Coronary Artery Disease (deceased at age 72)
+Mother: Hypertension, stroke (alive, age 82)
+Siblings: One brother with Type 2 Diabetes
+
+SOCIAL HISTORY
+--------------
+Occupation: Retired teacher
+Smoking: Former smoker, quit 2015 (20 pack-year history)
+Alcohol: Occasional, 1–2 units per week
+Exercise: Light walking 3–4 times per week, 20–30 minutes
+Diet: Reports high-carbohydrate diet; excessive sodium intake
+
+REVIEW OF SYSTEMS
+-----------------
+Constitutional: Fatigue (mild, ongoing 4 weeks). No fever, no unexplained weight loss.
+Cardiovascular: No chest pain, no palpitations. Occasional mild dyspnea on exertion.
+Respiratory: No cough, no wheezing.
+Gastrointestinal: No nausea, no vomiting. Mild occasional constipation.
+Neurological: Occasional dizziness on standing (orthostatic). No headache, no focal deficits.
+Musculoskeletal: Mild bilateral lower extremity edema.
+Endocrine: Polyuria and polydipsia, worse in the past month. No hypoglycemic episodes.
+Ophthalmologic: Vision stable; last dilated fundoscopy 8 months ago — mild non-proliferative diabetic retinopathy.
+
+PHYSICAL EXAMINATION
+--------------------
+Vital Signs:
+  Blood Pressure: 148/92 mmHg (right arm, seated)
+  Heart Rate: 76 beats per minute (regular rhythm)
+  Respiratory Rate: 16 breaths per minute
+  Temperature: 36.8°C (oral)
+  Oxygen Saturation: 97% on room air
+  Weight: 91 kg
+  Height: 174 cm
+  BMI: 30.1 kg/m² (Class I Obesity)
+
+General: Alert, oriented, no acute distress.
+HEENT: No thyromegaly, no lymphadenopathy.
+Cardiovascular: Regular rate and rhythm. No murmurs, rubs, or gallops.
+  Mild 1+ pitting edema bilateral ankles.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft, non-tender, no hepatosplenomegaly.
+Neurological: Cranial nerves II–XII intact. Sensation intact bilateral feet
+  (monofilament testing). Reflexes symmetric.
+Skin: No diabetic foot ulcers. No acanthosis nigricans noted.
+
+LABORATORY RESULTS (Ordered Today)
+------------------------------------
+HbA1c: 8.4% (target < 7.0%; elevated — poorly controlled)
+Fasting Blood Glucose: 178 mg/dL (normal: 70–100 mg/dL)
+Serum Creatinine: 1.3 mg/dL (mildly elevated)
+eGFR: 66 mL/min/1.73m² (CKD Stage 2 — stable from last visit)
+Potassium: 4.2 mEq/L (normal)
+Sodium: 139 mEq/L (normal)
+LDL Cholesterol: 112 mg/dL (target < 70 mg/dL for high-risk patients)
+HDL Cholesterol: 38 mg/dL (low; target > 40 mg/dL for males)
+Total Cholesterol: 198 mg/dL
+Triglycerides: 210 mg/dL (elevated; target < 150 mg/dL)
+Urine Albumin-to-Creatinine Ratio (UACR): 45 mg/g (borderline microalbuminuria)
+CBC: Within normal limits.
+
+ASSESSMENT
+----------
+1. Type 2 Diabetes Mellitus — Suboptimally controlled (HbA1c 8.4%)
+   - Non-adherence to diet and occasional medication missed
+   - Ongoing polyuria/polydipsia symptomatic of hyperglycemia
+
+2. Essential Hypertension — Suboptimally controlled (BP 148/92 mmHg)
+   - Likely contributing factors: dietary sodium, medication timing
+
+3. Dyslipidemia — LDL above target for high-risk patient
+   - HDL low; Triglycerides elevated
+
+4. Chronic Kidney Disease Stage 2 — Stable
+   - Mild microalbuminuria suggests early diabetic nephropathy
+
+5. Orthostatic symptoms — possibly medication-related (Amlodipine); monitor
+
+PLAN
+----
+Diabetes Management:
+- Reinforce dietary counseling: low glycemic index foods, portion control,
+  limit refined carbohydrates, increase fiber intake.
+- Increase Metformin to 1000 mg twice daily if renal function stable.
+- Consider referral to diabetes educator and registered dietitian.
+- Repeat HbA1c in 3 months.
+
+Hypertension Management:
+- Continue Lisinopril 10 mg and Amlodipine 5 mg.
+- Strict sodium restriction (< 2 g/day).
+- Increase aerobic exercise to 150 min/week minimum.
+- Ambulatory blood pressure monitoring to assess true control.
+
+Lipid Management:
+- Increase Atorvastatin from 20 mg to 40 mg at bedtime.
+- Repeat lipid panel in 8 weeks.
+- Encourage omega-3 fatty acid intake for elevated triglycerides.
+
+Renal Monitoring:
+- Continue Empagliflozin (cardiorenal protective).
+- Monitor UACR quarterly.
+- Avoid nephrotoxic agents. Adjust Metformin if eGFR falls below 45.
+
+Orthostatic Dizziness:
+- Educate patient on positional changes.
+- Increase hydration. Check medication timing.
+
+Follow-up:
+- Return in 3 months for repeat labs (HbA1c, lipid panel, renal function).
+- Referral to ophthalmology for annual dilated fundoscopy.
+- Referral to podiatry for annual diabetic foot exam.
+
+PATIENT EDUCATION PROVIDED
+---------------------------
+- Explained the relationship between dietary choices and blood glucose control.
+- Reviewed the importance of medication adherence.
+- Counseled on signs and symptoms of hypoglycemia and when to seek care.
+- Discussed cardiovascular risk reduction strategies.
+- Provided written dietary guidelines and blood glucose log sheet.
+
+Physician Signature: [De-identified]
+Date: 2024-08-15

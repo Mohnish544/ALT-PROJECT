@@ -1,0 +1,272 @@
+DIABETES CARE STANDARDS — SYNTHETIC REFERENCE GUIDE
+Synthetic Educational Document for MedLens Demo
+=====================================================
+[Note: This document is entirely synthetic, created for demonstration purposes.
+It is not a substitute for official clinical guidelines.]
+
+1. OVERVIEW OF DIABETES MELLITUS
+----------------------------------
+Diabetes mellitus (DM) is a group of metabolic diseases characterized by
+hyperglycemia resulting from defects in insulin secretion, insulin action, or both.
+
+Main Types:
+- Type 1 Diabetes (T1DM): Autoimmune destruction of pancreatic beta cells.
+  Absolute insulin deficiency. Typically onset in childhood/young adulthood.
+  Accounts for ~5–10% of all diabetes cases.
+
+- Type 2 Diabetes (T2DM): Progressive insulin resistance with relative insulin
+  deficiency. Most common form (~90–95% of cases). Often associated with
+  obesity, sedentary lifestyle, and genetic predisposition.
+
+- Gestational Diabetes (GDM): Glucose intolerance first recognized during pregnancy.
+  Increases risk of T2DM in both mother and child later in life.
+
+- Other specific types: MODY (maturity-onset diabetes of the young), secondary
+  diabetes (due to pancreatitis, Cushing syndrome, acromegaly, medication-induced).
+
+Prediabetes:
+  Fasting glucose: 100–125 mg/dL (impaired fasting glucose)
+  2-hour OGTT:    140–199 mg/dL (impaired glucose tolerance)
+  HbA1c:         5.7–6.4%
+
+2. DIAGNOSTIC CRITERIA
+-----------------------
+Diagnosis of diabetes requires one of the following:
+
+  a) Fasting plasma glucose (FPG) ≥ 126 mg/dL (7.0 mmol/L)
+     (No caloric intake for ≥ 8 hours)
+
+  b) 2-hour plasma glucose ≥ 200 mg/dL (11.1 mmol/L) during
+     75 g oral glucose tolerance test (OGTT)
+
+  c) HbA1c ≥ 6.5% (48 mmol/mol)
+     Performed in a certified laboratory
+
+  d) Random plasma glucose ≥ 200 mg/dL with classic symptoms
+     (polyuria, polydipsia, unexplained weight loss)
+
+Note: In the absence of unequivocal hyperglycemia, criteria a–c should be
+confirmed by repeat testing on a separate day.
+
+3. GLYCEMIC MONITORING
+-----------------------
+HbA1c (Glycated Hemoglobin):
+  - Reflects average plasma glucose over ~3 months.
+  - Target: < 7.0% for most non-pregnant adults with T2DM.
+  - More lenient target (< 8.0%): elderly, limited life expectancy,
+    hypoglycemia unawareness, multiple comorbidities.
+  - Tighter target (< 6.5%): short disease duration, long life expectancy,
+    no significant hypoglycemia risk.
+  - Test frequency: Every 3 months until stable; every 6 months when at goal.
+
+Self-Monitoring of Blood Glucose (SMBG):
+  - Fasting target: 80–130 mg/dL (pre-meal)
+  - Postprandial target: < 180 mg/dL (2 hours post-meal)
+  - Frequency: Individualized based on regimen and stability.
+  - Essential for insulin-treated patients; helpful for lifestyle modification.
+
+Continuous Glucose Monitoring (CGM):
+  - Recommended for T1DM and intensive insulin-treated T2DM.
+  - Provides time-in-range (TIR) data; target TIR ≥ 70% (70–180 mg/dL).
+  - Reduces hypoglycemia and improves HbA1c when used consistently.
+
+4. LIFESTYLE MANAGEMENT
+------------------------
+Medical Nutrition Therapy (MNT):
+  - No single ideal eating pattern exists; individualize based on preferences.
+  - General principles:
+    * Reduce refined carbohydrate intake (white bread, sugary drinks, white rice)
+    * Increase dietary fiber (vegetables, legumes, whole grains): ≥ 25 g/day
+    * Limit added sugars (< 10% of total calories)
+    * Choose healthy fats (mono- and polyunsaturated; limit saturated and trans)
+    * Consistent carbohydrate distribution across meals for glucose stability
+    * Caloric restriction for overweight/obese patients
+  - Evidence-based dietary patterns:
+    * Mediterranean diet — reduced cardiovascular risk
+    * DASH diet — reduces blood pressure and improves glycemia
+    * Low-carbohydrate diet — effective short-term for weight loss and HbA1c
+
+Physical Activity:
+  - Aerobic exercise: ≥ 150 min/week moderate intensity or ≥ 75 min/week vigorous
+  - Resistance training: 2–3 times/week targeting all major muscle groups
+  - Break prolonged sitting with light activity every 30 minutes
+  - Benefits: Improves insulin sensitivity, reduces HbA1c by 0.5–1.0%,
+    reduces cardiovascular risk, aids weight management
+
+Weight Management:
+  - 5–10% weight loss improves glycemic control significantly in T2DM
+  - Intensive lifestyle intervention can achieve diabetes remission in some patients
+  - Options: behavioral therapy, very low-calorie diet, bariatric surgery (BMI ≥ 40
+    or BMI ≥ 35 with comorbidities)
+
+Smoking Cessation:
+  - Smoking increases risk of diabetes, comorbidities, and cardiovascular disease
+  - All patients should be counseled and offered cessation support
+
+5. PHARMACOLOGICAL TREATMENT FOR TYPE 2 DIABETES
+--------------------------------------------------
+Treatment Selection:
+  - Consider efficacy, hypoglycemia risk, weight effects, cardiovascular outcomes,
+    renal function, side effect profile, cost, and patient preference.
+
+First-Line:
+  a) Metformin (Biguanide)
+     - Mechanism: Reduces hepatic glucose production; improves insulin sensitivity
+     - Dose: Start 500 mg BID with meals; titrate to 2000 mg/day maximum
+     - Benefits: Weight neutral, low cost, proven cardiovascular safety,
+       possible mortality benefit (UKPDS)
+     - Side effects: GI symptoms (nausea, diarrhea) in 20–30% — mitigated by
+       slow titration and taking with food
+     - Contraindications: eGFR < 30 mL/min (hold if < 45 for iodinated contrast),
+       metabolic acidosis, severe hepatic impairment
+     - Rare: Lactic acidosis (very rare with normal renal function)
+
+  b) SGLT-2 Inhibitors (if CVD or CKD)
+     Examples: Empagliflozin, Dapagliflozin, Canagliflozin
+     - Mechanism: Block renal glucose reabsorption → glucosuria
+     - Benefits: Weight loss (2–4 kg), BP reduction, HF hospitalization reduction,
+       CKD progression slowing, CV mortality reduction (Empagliflozin — EMPA-REG)
+     - Side effects: Urinary tract infections, genital mycotic infections,
+       DKA (rare, more in T1DM), volume depletion
+     - Contraindications: eGFR < 30 (< 45 for some agents)
+
+  c) GLP-1 Receptor Agonists (if CVD or obesity)
+     Examples: Semaglutide (Ozempic), Liraglutide (Victoza), Dulaglutide (Trulicity)
+     - Mechanism: Mimic GLP-1 → increase insulin, suppress glucagon, slow gastric emptying
+     - Benefits: Significant weight loss (2–5 kg), HbA1c reduction 1.0–2.0%,
+       CV risk reduction (LEADER trial — Liraglutide)
+     - Side effects: Nausea, vomiting, diarrhea (usually transient), medullary
+       thyroid cancer risk (thyroid C-cell tumors in rodents; contraindicated
+       with personal/family history of MEN2)
+     - Injectable (weekly or daily) or oral (Semaglutide oral)
+
+Other Drug Classes:
+  d) DPP-4 Inhibitors (Sitagliptin, Saxagliptin, Alogliptin)
+     - Weight neutral; low hypoglycemia risk; convenient once-daily dosing
+     - Modest HbA1c reduction (~0.5–0.8%)
+
+  e) Sulfonylureas (Glipizide, Glimepiride, Glyburide)
+     - Inexpensive; stimulate insulin release
+     - Significant hypoglycemia risk; weight gain; avoid in elderly/renal disease
+
+  f) Thiazolidinediones (Pioglitazone)
+     - Improve insulin sensitivity; NASH benefit
+     - Weight gain, edema, bladder cancer risk (Pioglitazone), bone fracture risk
+
+  g) Insulin Therapy
+     - Required for T1DM; used when T2DM is uncontrolled on oral agents
+     - Types:
+       * Rapid-acting: Lispro, Aspart (onset 15 min; for mealtime use)
+       * Short-acting: Regular insulin (onset 30–60 min)
+       * Intermediate: NPH (onset 2–4 hrs)
+       * Long-acting: Glargine, Detemir, Degludec (once daily basal)
+     - Start with basal insulin: Glargine 10 units at bedtime, titrate by
+       2 units every 3 days targeting FBG 80–130 mg/dL
+     - Side effects: Hypoglycemia (most serious), weight gain, injection site reactions
+
+Treatment Algorithm:
+  Step 1: Metformin + lifestyle modification
+  Step 2: Add SGLT-2i (if CVD/HF/CKD) or GLP-1RA (if CVD/obesity)
+          or DPP-4i (if weight neutral preferred) or SU (cost a priority)
+  Step 3: Triple therapy or add basal insulin
+  Step 4: Intensive insulin regimen (basal-bolus)
+
+6. COMPLICATIONS
+-----------------
+Microvascular:
+  a) Diabetic Nephropathy:
+     - Leading cause of end-stage renal disease (ESRD) in developed countries
+     - Screening: Annual UACR and eGFR from diagnosis (T2DM) or 5 years (T1DM)
+     - Microalbuminuria (UACR 30–300 mg/g): Early stage; ACEi/ARB protective
+     - Macroalbuminuria (UACR > 300 mg/g): Progressive CKD
+
+  b) Diabetic Retinopathy:
+     - Most common cause of new blindness in working-age adults
+     - Stages: Non-proliferative (NPDR) → Proliferative (PDR) → Diabetic macular edema
+     - Screening: Annual dilated fundoscopy (T1DM: 5 years after diagnosis; T2DM: at diagnosis)
+     - Treatment: Tight glycemic and BP control; anti-VEGF injections; laser photocoagulation
+
+  c) Diabetic Neuropathy:
+     - Distal symmetric polyneuropathy (DPN): Numbness, tingling, burning in feet
+       ("glove and stocking" distribution)
+     - Autonomic neuropathy: Orthostatic hypotension, gastroparesis, bladder dysfunction,
+       erectile dysfunction
+     - Screening: Annual monofilament testing + vibration assessment
+     - Treatment: Glycemic control; Pregabalin, Duloxetine, or Gabapentin for pain
+
+Macrovascular:
+  - Coronary artery disease (2–4× increased risk vs. general population)
+  - Peripheral arterial disease (PAD): Ankle-brachial index (ABI) screening
+  - Stroke: 2× increased risk
+  - Cardiovascular disease is the leading cause of death in T2DM patients
+
+Diabetic Foot:
+  - 15–25% of diabetic patients develop foot ulcers
+  - Major cause of non-traumatic lower limb amputation
+  - Prevention: Annual foot exam; proper footwear; patient education
+  - Infection: Polymicrobial; prompt wound care and antibiotics
+
+7. CARDIOVASCULAR RISK MANAGEMENT IN DIABETES
+----------------------------------------------
+- Lipid management: LDL target < 100 mg/dL (< 70 mg/dL if CVD present)
+  Use statins for all patients with diabetes aged > 40 years.
+- Blood pressure target: < 130/80 mmHg
+- Antiplatelet therapy: Aspirin 75–162 mg daily if established CVD;
+  consider for primary prevention only in high-risk patients
+- SGLT-2 inhibitors and GLP-1 agonists with proven CV benefit preferred
+  in patients with established CVD or high CVD risk
+
+8. HYPOGLYCEMIA
+---------------
+Definition: Blood glucose < 70 mg/dL (3.9 mmol/L)
+Severe hypoglycemia: Requires assistance from another person for treatment
+
+Symptoms:
+  Adrenergic (early): Sweating, palpitations, tremor, anxiety, hunger
+  Neuroglycopenic (late): Confusion, difficulty speaking, seizures, coma
+
+Treatment (Rule of 15):
+  - 15 g of fast-acting carbohydrate (4 glucose tablets, 120 mL orange juice, 1 tablespoon honey)
+  - Wait 15 minutes; recheck glucose
+  - Repeat if still < 70 mg/dL
+  - Follow with a snack if next meal > 1 hour away
+  Severe: Glucagon injection (IM/SC/IN) or IV dextrose (D50W) in hospital
+
+Prevention:
+  - Avoid skipping meals
+  - Dose adjustments for exercise
+  - Carry rapid-acting glucose at all times
+
+9. SICK-DAY RULES
+------------------
+- Continue insulin and oral medications unless advised otherwise
+- Monitor blood glucose every 2–4 hours
+- Increase fluid intake to prevent dehydration and DKA
+- Check urine ketones if glucose > 240 mg/dL
+- Seek emergency care if: unable to keep fluids down, glucose > 300 mg/dL
+  despite correction, ketones positive, altered mental status
+
+10. DIABETES EDUCATION AND SELF-MANAGEMENT
+-------------------------------------------
+Diabetes Self-Management Education and Support (DSMES):
+  - Recommended at diagnosis and annually thereafter
+  - Core topics: nutrition, physical activity, blood glucose monitoring,
+    medication management, problem-solving, coping, hypoglycemia management,
+    sick-day rules, foot care, complication prevention
+
+Healthcare Team:
+  - Primary care physician or endocrinologist
+  - Diabetes educator (CDE/CDCES)
+  - Registered dietitian
+  - Ophthalmologist
+  - Podiatrist
+  - Pharmacist
+  - Mental health professional (depression is 2× more common in T2DM)
+
+REFERENCES (Synthetic/Illustrative)
+------------------------------------
+- American Diabetes Association Standards of Medical Care in Diabetes
+- UKPDS (United Kingdom Prospective Diabetes Study)
+- EMPA-REG OUTCOME Trial
+- LEADER Trial (Liraglutide Effect and Action in Diabetes)
+- DECLARE-TIMI 58 Trial (Dapagliflozin)

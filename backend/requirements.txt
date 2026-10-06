@@ -1,0 +1,45 @@
+# MedLens — Backend Dependencies
+# Pin versions for reproducibility (course project)
+
+# ── Core API ─────────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# ── NLP / ML ─────────────────────────────────────────────────────────────────
+nltk==3.9.1
+spacy==3.8.2
+scikit-learn==1.5.2
+numpy==1.26.4
+sentence-transformers==3.1.1
+transformers==4.44.2
+torch==2.4.1          # CPU-only is fine; remove +cpu suffix for GPU
+faiss-cpu==1.8.0
+rank-bm25==0.2.2
+
+# ── Document Parsing ─────────────────────────────────────────────────────────
+pypdf==4.3.1
+pdfplumber==0.11.4
+python-docx==1.1.2
+chardet==5.2.0
+
+# ── LLM Providers ────────────────────────────────────────────────────────────
+openai==1.51.2
+anthropic==0.36.1
+httpx==0.27.2          # Also used by Ollama client + FastAPI test client
+
+# ── Storage / Utilities ──────────────────────────────────────────────────────
+aiofiles==24.1.0
+python-dotenv==1.0.1
+orjson==3.10.7
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2          # AsyncClient for FastAPI tests
+
+# ── Evaluation / Plotting (optional CLI) ─────────────────────────────────────
+matplotlib==3.9.2
+pandas==2.2.3

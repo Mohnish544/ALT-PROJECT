@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What medications are listed for the patient?",
+    "relevant_keywords": ["medication", "metformin", "lisinopril", "atorvastatin", "aspirin"],
+    "answer": "The patient is prescribed Metformin 500mg twice daily, Lisinopril 10mg daily, Atorvastatin 20mg at bedtime, and Aspirin 81mg daily."
+  },
+  {
+    "question": "What is the patient's blood pressure reading?",
+    "relevant_keywords": ["blood pressure", "hypertension", "mmhg", "systolic", "diastolic"],
+    "answer": "The patient's blood pressure is recorded as 138/86 mmHg, indicating stage 1 hypertension."
+  },
+  {
+    "question": "What are the symptoms of type 2 diabetes?",
+    "relevant_keywords": ["diabetes", "glucose", "insulin", "polyuria", "polydipsia", "fatigue"],
+    "answer": "Common symptoms of type 2 diabetes include increased thirst, frequent urination, fatigue, blurred vision, and slow wound healing."
+  },
+  {
+    "question": "What is the recommended treatment for hypertension?",
+    "relevant_keywords": ["hypertension", "antihypertensive", "lifestyle", "diet", "exercise", "treatment"],
+    "answer": "Treatment includes lifestyle modifications (low-sodium diet, exercise, weight loss) and antihypertensive medications such as ACE inhibitors, beta-blockers, or diuretics."
+  },
+  {
+    "question": "What laboratory tests were ordered?",
+    "relevant_keywords": ["lab", "hba1c", "creatinine", "cholesterol", "lipid", "glucose", "cbc"],
+    "answer": "Ordered tests include HbA1c, fasting glucose, lipid panel, complete metabolic panel, and CBC."
+  },
+  {
+    "question": "What dietary recommendations are given for diabetes management?",
+    "relevant_keywords": ["diet", "carbohydrate", "sugar", "calorie", "nutrition", "fiber"],
+    "answer": "Recommendations include reducing refined carbohydrate intake, increasing dietary fiber, limiting added sugars, and following a calorie-controlled meal plan."
+  },
+  {
+    "question": "What is the patient's diagnosis?",
+    "relevant_keywords": ["diagnosis", "diabetes mellitus", "hypertension", "dyslipidemia"],
+    "answer": "Primary diagnoses are Type 2 Diabetes Mellitus, Essential Hypertension, and Dyslipidemia."
+  },
+  {
+    "question": "What are the risk factors for coronary artery disease?",
+    "relevant_keywords": ["coronary", "cholesterol", "smoking", "hypertension", "diabetes", "obesity", "risk"],
+    "answer": "Major risk factors include hypertension, dyslipidemia, diabetes mellitus, smoking, obesity, family history, and sedentary lifestyle."
+  },
+  {
+    "question": "What is HbA1c and what level is considered diabetic?",
+    "relevant_keywords": ["hba1c", "glycated", "hemoglobin", "diabetic", "percentage"],
+    "answer": "HbA1c (glycated hemoglobin) reflects average blood glucose over 3 months. A level of 6.5% or above indicates diabetes; 5.7–6.4% indicates prediabetes."
+  },
+  {
+    "question": "What is the follow-up plan for the patient?",
+    "relevant_keywords": ["follow-up", "appointment", "return", "visit", "weeks", "months"],
+    "answer": "The patient is scheduled for a follow-up visit in 3 months to review laboratory results and adjust medications as needed."
+  },
+  {
+    "question": "What are complications of uncontrolled diabetes?",
+    "relevant_keywords": ["complication", "neuropathy", "nephropathy", "retinopathy", "cardiovascular", "kidney"],
+    "answer": "Uncontrolled diabetes can lead to diabetic neuropathy, nephropathy, retinopathy, cardiovascular disease, and increased infection risk."
+  },
+  {
+    "question": "What exercise is recommended for hypertension?",
+    "relevant_keywords": ["exercise", "aerobic", "physical activity", "walking", "moderate", "minutes"],
+    "answer": "At least 150 minutes per week of moderate-intensity aerobic exercise (e.g., brisk walking, cycling) is recommended."
+  },
+  {
+    "question": "What is the BMI of the patient?",
+    "relevant_keywords": ["bmi", "body mass index", "obesity", "overweight", "weight"],
+    "answer": "The patient's BMI is 31.2 kg/m², classified as obese (Class I)."
+  },
+  {
+    "question": "What are the side effects of metformin?",
+    "relevant_keywords": ["metformin", "side effect", "nausea", "diarrhea", "gastrointestinal", "lactic"],
+    "answer": "Common side effects of metformin include nausea, diarrhea, and abdominal discomfort. Rare but serious: lactic acidosis."
+  },
+  {
+    "question": "What cholesterol levels are being targeted?",
+    "relevant_keywords": ["cholesterol", "ldl", "hdl", "triglyceride", "lipid", "target"],
+    "answer": "Target LDL is below 100 mg/dL for patients with diabetes and cardiovascular risk. HDL should be above 40 mg/dL for men, 50 mg/dL for women."
+  }
+]

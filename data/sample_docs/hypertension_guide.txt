@@ -1,0 +1,264 @@
+HYPERTENSION — CLINICAL MANAGEMENT GUIDE
+Synthetic Educational Document for MedLens Demo
+================================================
+[Note: This document is entirely synthetic, created for demonstration purposes.
+It is not a substitute for clinical guidelines from authoritative bodies.]
+
+1. DEFINITION AND CLASSIFICATION
+---------------------------------
+Hypertension (high blood pressure) is defined as a sustained elevation of
+arterial blood pressure (BP) at or above 130/80 mmHg according to the 2017
+ACC/AHA Guidelines, or 140/90 mmHg according to the older JNC 7 classification.
+
+Blood Pressure Classification (ACC/AHA 2017):
+  Normal:             < 120/80 mmHg
+  Elevated:           120–129 / < 80 mmHg
+  Stage 1 HTN:        130–139 / 80–89 mmHg
+  Stage 2 HTN:        ≥ 140 / ≥ 90 mmHg
+  Hypertensive Crisis: > 180 / > 120 mmHg
+
+Hypertension is classified as:
+- Primary (Essential) Hypertension: No identifiable secondary cause (~95% of cases)
+- Secondary Hypertension: Due to identifiable cause (renal artery stenosis,
+  primary aldosteronism, pheochromocytoma, Cushing syndrome, etc.)
+
+2. EPIDEMIOLOGY
+---------------
+Hypertension affects approximately 1.28 billion adults globally (WHO, 2021),
+making it one of the leading preventable causes of cardiovascular morbidity
+and mortality. Prevalence increases with age; more than 70% of adults over
+65 years are affected. Hypertension is often asymptomatic ("the silent killer"),
+leading to underdiagnosis and undertreatment.
+
+3. PATHOPHYSIOLOGY
+------------------
+Blood pressure is determined by cardiac output (CO) and systemic vascular
+resistance (SVR): BP = CO × SVR.
+
+Key pathophysiological mechanisms in essential hypertension include:
+- Increased activation of the Renin-Angiotensin-Aldosterone System (RAAS),
+  leading to sodium and water retention and vasoconstriction.
+- Increased sympathetic nervous system (SNS) activity elevating heart rate
+  and vasoconstriction.
+- Endothelial dysfunction reducing nitric oxide (NO) bioavailability.
+- Arterial stiffening (arteriosclerosis) reducing vascular compliance.
+- Genetic polymorphisms in sodium transport and RAAS genes.
+- Chronic kidney disease contributing to volume overload.
+
+4. RISK FACTORS
+---------------
+Non-modifiable:
+  - Age (risk increases significantly after 55 in men, 65 in women)
+  - Family history of hypertension or premature cardiovascular disease
+  - Race/ethnicity (higher prevalence in Black adults)
+  - Sex (higher in men < 55 years; higher in women after menopause)
+
+Modifiable:
+  - High dietary sodium intake (> 2.3 g/day)
+  - Obesity (BMI > 30 kg/m²)
+  - Physical inactivity
+  - Excessive alcohol consumption
+  - Tobacco use / smoking
+  - Diabetes mellitus
+  - Dyslipidemia
+  - Chronic stress
+  - Obstructive sleep apnea (OSA)
+  - Dietary patterns (low potassium, low calcium, high processed food)
+
+5. CLINICAL PRESENTATION AND DIAGNOSIS
+---------------------------------------
+Most patients are asymptomatic. When symptomatic:
+  - Headache (typically occipital, morning)
+  - Dizziness or lightheadedness
+  - Visual disturbances (in severe hypertension or hypertensive retinopathy)
+  - Epistaxis (nosebleeds)
+
+Hypertensive Urgency: Severe elevation (> 180/120 mmHg) WITHOUT target organ damage.
+Hypertensive Emergency: Severe elevation WITH acute target organ damage
+  (e.g., hypertensive encephalopathy, NSTEMI, aortic dissection, acute pulmonary edema).
+
+Diagnostic Approach:
+  1. Confirm diagnosis with two or more separate readings on two separate occasions.
+  2. Use properly calibrated sphygmomanometer; patient seated for ≥ 5 minutes.
+  3. Use ambulatory blood pressure monitoring (ABPM) when white-coat or
+     masked hypertension is suspected.
+  4. Evaluate for secondary causes if onset is young (<30 years), resistant
+     to treatment, or has atypical features.
+  5. Assess for target organ damage: ECG (LVH), fundoscopy (retinopathy),
+     urinalysis (proteinuria), serum creatinine (renal function).
+
+6. TARGET ORGAN DAMAGE
+-----------------------
+Uncontrolled chronic hypertension leads to:
+
+Cardiovascular:
+  - Left ventricular hypertrophy (LVH) → heart failure
+  - Accelerated coronary artery disease (CAD) → myocardial infarction
+  - Aortic aneurysm / aortic dissection
+
+Cerebrovascular:
+  - Ischemic stroke (thrombotic or embolic)
+  - Hemorrhagic stroke
+  - Transient ischemic attack (TIA)
+  - Vascular dementia
+
+Renal:
+  - Hypertensive nephrosclerosis → chronic kidney disease → end-stage renal disease
+  - Microalbuminuria is an early marker
+
+Ocular:
+  - Hypertensive retinopathy (A/V nicking, flame hemorrhages, papilledema)
+  - Retinal vein occlusion
+
+7. NON-PHARMACOLOGICAL TREATMENT (LIFESTYLE MODIFICATION)
+----------------------------------------------------------
+Lifestyle modification is the cornerstone of hypertension management and is
+recommended for all stages.
+
+Dietary Approaches:
+  - DASH Diet (Dietary Approaches to Stop Hypertension):
+    Rich in fruits, vegetables, whole grains, low-fat dairy.
+    Reduces BP by 8–14 mmHg systolic.
+  - Sodium restriction: < 2.3 g/day (ideally < 1.5 g/day for high-risk patients).
+    Reduces BP by 2–8 mmHg systolic.
+  - Potassium intake: 3,500–5,000 mg/day from dietary sources (bananas, leafy greens).
+  - Limit alcohol: ≤ 2 drinks/day for men, ≤ 1 drink/day for women.
+    Reduces BP by 2–4 mmHg systolic.
+
+Physical Activity:
+  - Aerobic exercise: ≥ 150 minutes/week of moderate intensity
+    (brisk walking, cycling, swimming).
+    Reduces BP by 4–9 mmHg systolic.
+  - Resistance training: 2–3 times per week as adjunct.
+
+Weight Reduction:
+  - Each 1 kg reduction in body weight reduces systolic BP by ~1 mmHg.
+  - Target BMI < 25 kg/m² where achievable.
+
+Smoking Cessation:
+  - Smoking increases cardiovascular risk independently; cessation is essential.
+  - Nicotine replacement therapy, varenicline, or bupropion may assist.
+
+Stress Reduction:
+  - Mindfulness-based stress reduction (MBSR) and cognitive behavioral therapy
+    may modestly reduce BP.
+
+8. PHARMACOLOGICAL TREATMENT
+-----------------------------
+Indication for medication:
+  - Stage 1 HTN with high CVD risk or established CVD
+  - Stage 2 HTN (BP ≥ 140/90 mmHg)
+  - When lifestyle modification is insufficient after 3–6 months
+
+First-Line Drug Classes:
+
+  a) ACE Inhibitors (ACEi)
+     Examples: Lisinopril, Enalapril, Ramipril
+     Mechanism: Block conversion of angiotensin I → II; reduce RAAS activity.
+     Indications: Preferred in diabetes (especially with proteinuria), CKD, heart failure.
+     Side effects: Dry cough (10–15%), hyperkalemia, angioedema (rare, serious).
+     Contraindications: Pregnancy, bilateral renal artery stenosis.
+
+  b) Angiotensin Receptor Blockers (ARBs)
+     Examples: Losartan, Valsartan, Olmesartan
+     Mechanism: Block AT1 receptor directly; similar benefits to ACEi.
+     Preferred over ACEi in patients with ACEi-induced cough.
+     Side effects: Hyperkalemia, rare angioedema.
+
+  c) Calcium Channel Blockers (CCBs)
+     Examples: Amlodipine (dihydropyridine); Diltiazem, Verapamil (non-DHP)
+     Mechanism: Block L-type calcium channels in vascular smooth muscle.
+     Indications: Elderly patients, isolated systolic hypertension, angina.
+     Side effects: Peripheral edema (amlodipine), constipation (verapamil),
+       bradycardia (non-DHP).
+
+  d) Thiazide Diuretics
+     Examples: Hydrochlorothiazide (HCTZ), Chlorthalidone
+     Mechanism: Inhibit Na-Cl cotransporter in distal tubule → natriuresis.
+     Indications: Effective monotherapy; good add-on agent.
+     Side effects: Hypokalemia, hyperuricemia, hyponatremia, glucose intolerance.
+
+Second-Line Drug Classes:
+  - Beta-blockers (Metoprolol, Carvedilol) — preferred if heart failure or post-MI
+  - Loop diuretics (Furosemide) — if volume overload or CKD
+  - Mineralocorticoid receptor antagonists (Spironolactone) — resistant HTN
+  - Alpha-blockers (Doxazosin) — if BPH coexists
+  - Central agonists (Clonidine) — last resort due to rebound effects
+
+Combination Therapy:
+  - Most patients require ≥ 2 drugs to achieve target BP.
+  - Preferred combinations:
+    ACEi + CCB, ACEi + Thiazide, ARB + CCB, ARB + Thiazide
+  - Avoid combining ACEi + ARB (increased renal risk, no added BP benefit).
+
+Resistant Hypertension:
+  Defined as BP above goal despite ≥ 3 antihypertensive drugs including a diuretic.
+  - Confirm adherence and white-coat hypertension.
+  - Add Spironolactone (25–50 mg) as 4th agent — most effective add-on.
+  - Evaluate for secondary causes.
+
+9. BLOOD PRESSURE TARGETS
+--------------------------
+General adults (ACC/AHA 2017):      < 130/80 mmHg
+Elderly (≥ 65 years):               < 130/80 mmHg if tolerated
+Diabetes mellitus:                  < 130/80 mmHg
+Chronic kidney disease:             < 130/80 mmHg (or < 140/90 if proteinuria)
+Heart failure:                      < 130/80 mmHg
+
+10. MONITORING AND FOLLOW-UP
+-----------------------------
+- Initiate or adjust therapy, then recheck in 2–4 weeks.
+- Once at goal, monitor every 3–6 months.
+- Annual labs: electrolytes, renal function, glucose, lipid panel.
+- Annual ECG for LVH surveillance.
+- Annual fundoscopy (ophthalmology referral) in long-standing or severe HTN.
+- Home blood pressure monitoring encouraged for patient engagement.
+
+11. SPECIAL POPULATIONS
+------------------------
+Pregnancy:
+  - Avoid ACEi and ARBs (teratogenic).
+  - Preferred agents: Labetalol, Methyldopa, Nifedipine.
+  - Severe gestational HTN or preeclampsia: IV Labetalol or IV Hydralazine.
+
+Elderly:
+  - Initiate at lower doses; titrate slowly to reduce fall risk.
+  - Orthostatic hypotension is a concern.
+  - Thiazides and CCBs generally well-tolerated.
+
+Chronic Kidney Disease:
+  - ACEi or ARB preferred (nephroprotective — reduces proteinuria).
+  - Avoid NSAIDs, nephrotoxic agents.
+  - If eGFR < 30, switch to loop diuretics from thiazides.
+
+Diabetes Mellitus:
+  - ACEi or ARB first line (reduce diabetic nephropathy progression).
+  - Target BP < 130/80 mmHg.
+  - Monitor HbA1c alongside BP for comprehensive cardiovascular risk management.
+
+12. PROGNOSIS
+-------------
+Well-controlled hypertension significantly reduces:
+  - Stroke risk by 35–40%
+  - Myocardial infarction risk by 20–25%
+  - Heart failure risk by > 50%
+
+With combination of lifestyle modification and optimal pharmacotherapy,
+most patients can achieve and maintain target blood pressure.
+
+13. PATIENT EDUCATION POINTS
+-----------------------------
+- "White coat hypertension" — elevated BP only in clinical settings — should
+  be confirmed with home monitoring before initiating treatment.
+- Medications must be taken consistently even when feeling well.
+- Sodium labeling: "low sodium" = < 140 mg/serving; read food labels carefully.
+- Avoid NSAIDs (ibuprofen, naproxen) as they raise BP and reduce antihypertensive efficacy.
+- Report side effects promptly (especially ACEi cough or ankle swelling with CCBs).
+
+REFERENCES (Synthetic/Illustrative)
+------------------------------------
+- 2017 ACC/AHA High Blood Pressure Guidelines
+- JNC 8 Guidelines
+- WHO Global Status Report on Noncommunicable Diseases
+- DASH Collaborative Research Group
+- SPRINT Trial (Systolic Blood Pressure Intervention Trial)
