@@ -7,7 +7,7 @@ from typing import Optional
 from backend.config import settings
 from backend.embeddings.indexer import SearchResult
 from backend.llm.provider import LLMProvider, GenerationResult
-from backend.llm.prompts import build_messages, build_no_context_answer, SYSTEM_PROMPT
+from backend.llm.prompts import build_messages, SYSTEM_PROMPT
 
 logger = logging.getLogger(__name__)
 
@@ -46,11 +46,7 @@ class AnthropicProvider(LLMProvider):
         chat_history: Optional[list[dict]] = None,
         source_type: str = "document",
     ) -> GenerationResult:
-        if not context_chunks:
-            return GenerationResult(
-                answer=build_no_context_answer(source_type),
-                model=self.model, provider=self.name,
-            )
+
 
         # Anthropic uses system separately from messages
         messages = build_messages(question, context_chunks, source_type, chat_history)

@@ -19,10 +19,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from backend.config import settings
+from backend.config import settings as app_settings
 
 logging.basicConfig(
-    level=getattr(logging, settings.log_level.upper(), logging.INFO),
+    level=getattr(logging, app_settings.log_level.upper(), logging.INFO),
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     stream=sys.stdout,
 )
@@ -34,7 +34,7 @@ async def lifespan(app: FastAPI):
     """Startup / shutdown lifecycle manager."""
     # ── Startup ───────────────────────────────────────────────────────────────
     logger.info("MedLens starting up...")
-    settings.ensure_dirs()
+    app_settings.ensure_dirs()
 
     # 1. Load embedding model (heavy — do once at startup)
     logger.info("Loading embedding model...")
@@ -92,7 +92,7 @@ def create_app() -> FastAPI:
     # ── CORS ──────────────────────────────────────────────────────────────────
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=settings.cors_origins,
+        allow_origins=app_settings.cors_origins,
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
@@ -100,12 +100,14 @@ def create_app() -> FastAPI:
 
     # ── API Routes ────────────────────────────────────────────────────────────
     from backend.api.routes import upload, chat, documents, evaluation, status
+    from backend.api.routes import settings as settings_route
 
     app.include_router(upload.router, prefix="/api", tags=["upload"])
     app.include_router(chat.router, prefix="/api", tags=["chat"])
     app.include_router(documents.router, prefix="/api", tags=["documents"])
     app.include_router(evaluation.router, prefix="/api", tags=["evaluation"])
     app.include_router(status.router, prefix="/api", tags=["status"])
+    app.include_router(settings_route.router, prefix="/api", tags=["settings"])
 
     # ── Serve React frontend (production) ─────────────────────────────────────
     dist_dir = Path(__file__).parent.parent.parent / "frontend" / "dist"
@@ -124,5 +126,5 @@ if __name__ == "__main__":
         "backend.api.main:app",
         host="0.0.0.0",
         port=8000,
-        reload=settings.app_env == "development",
+        reload=app_settings.app_env == "development",
     )

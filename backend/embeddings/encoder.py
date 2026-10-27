@@ -52,7 +52,8 @@ class Encoder:
             model_name = fallback
 
         self.model_name = model_name
-        self.dim: int = self._model.get_sentence_embedding_dimension()
+        dim_fn = getattr(self._model, "get_embedding_dimension", None) or self._model.get_sentence_embedding_dimension
+        self.dim: int = dim_fn()
         logger.info("Encoder ready. Dimension: %d", self.dim)
 
     def encode(

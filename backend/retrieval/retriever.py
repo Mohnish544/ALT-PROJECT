@@ -123,12 +123,16 @@ def retrieve(
     use_kb = False
 
     if not doc_results:
-        # No document loaded at all → use KB directly
+        # No document loaded at all -> use KB directly.
         use_kb = True
     elif doc_max_score < threshold:
-        # Document match is weak → fall back to KB
+        # Document match is weak -> fall back to KB.
         use_kb = True
-        fallback_triggered = bool(doc_results)  # True only if we had doc results but they were weak
+        fallback_triggered = True
+    elif get_kb_index() is not None:
+        # Keep the general medical context available even when the document
+        # has a strong match; the question may contain a second topic.
+        use_kb = True
 
     if use_kb and kb_index is not None and kb_index.total_vectors > 0:
         kb_results = kb_index.search(query_vec, top_k=k)

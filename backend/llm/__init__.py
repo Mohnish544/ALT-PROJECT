@@ -32,6 +32,7 @@ def get_llm_provider() -> LLMProvider:
         "openai": _load_openai,
         "anthropic": _load_anthropic,
         "ollama": _load_ollama,
+        "groq": _load_groq,
         "mock": lambda: MockProvider(),
     }
 
@@ -63,6 +64,11 @@ def _load_anthropic() -> LLMProvider:
 def _load_ollama() -> LLMProvider:
     from backend.llm.ollama_provider import OllamaProvider
     return OllamaProvider()
+
+
+def _load_groq() -> LLMProvider:
+    from backend.llm.groq_provider import GroqProvider
+    return GroqProvider()
 
 
 __all__ = ["get_llm_provider", "LLMProvider"]

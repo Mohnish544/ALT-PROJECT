@@ -90,7 +90,18 @@ def chunk_text(
             idx = char_cursor
         start = idx
         end = idx + len(sent)
-        sentence_data.append((sent, start, end))
+        if _count_tokens(sent) <= chunk_size:
+            sentence_data.append((sent, start, end))
+        else:
+            # NLTK may treat an entire punctuation-free document as one
+            # sentence. Split oversized sentences so chunk_size remains a
+            # real upper bound instead of embedding the whole document.
+            words = list(re.finditer(r"\S+", sent))
+            for offset in range(0, len(words), chunk_size):
+                group = words[offset:offset + chunk_size]
+                segment_start = start + group[0].start()
+                segment_end = start + group[-1].end()
+                sentence_data.append((text[segment_start:segment_end], segment_start, segment_end))
         char_cursor = end
 
     # Sliding window accumulation

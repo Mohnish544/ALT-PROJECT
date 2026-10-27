@@ -22,7 +22,9 @@ export default function Settings() {
   ] : [];
 
   const envRows = [
-    { key: 'LLM_PROVIDER',          desc: 'openai | anthropic | ollama | mock' },
+    { key: 'LLM_PROVIDER',          desc: 'groq | ollama | openai | anthropic | mock' },
+    { key: 'GROQ_API_KEY',          desc: 'Free API key from console.groq.com (when LLM_PROVIDER=groq)' },
+    { key: 'GROQ_MODEL',            desc: 'openai/gpt-oss-20b (default; verify availability in your Groq account)' },
     { key: 'OPENAI_API_KEY',         desc: 'Required when LLM_PROVIDER=openai' },
     { key: 'ANTHROPIC_API_KEY',      desc: 'Required when LLM_PROVIDER=anthropic' },
     { key: 'OLLAMA_BASE_URL',        desc: 'Ollama server URL (default: http://localhost:11434)' },
