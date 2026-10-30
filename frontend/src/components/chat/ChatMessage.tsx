@@ -58,7 +58,7 @@ export function ChatMessageComponent({ message }: ChatMessageProps) {
           {isUser ? <User size={12} /> : <Activity size={12} />}
         </div>
         <span style={{ fontSize: 'var(--text-xs)', color: 'var(--color-text-tertiary)' }}>
-          {isUser ? 'You' : 'MedLens'}
+          {isUser ? 'You' : 'QA Assistant'}
           {' · '}
           {new Date(message.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
         </span>

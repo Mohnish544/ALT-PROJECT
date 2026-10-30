@@ -1,10 +1,10 @@
-# ClinIQ — Context-Aware Healthcare Document Intelligence
+# Retrieval-Based Intelligent QA System for Healthcare Documents
 
 > Context-aware question answering for healthcare documents
 
-ClinIQ is a full-stack retrieval-augmented generation (RAG) application for asking questions across clinical notes, medical guidelines, reports, and other healthcare documents. It combines semantic search, optional BM25 ranking, a MedQuAD general medical knowledge base, and configurable large-language-model (LLM) providers to produce answers with source citations and retrieval metadata.
+Retrieval-Based Intelligent QA System for Healthcare Documents is a full-stack retrieval-augmented generation (RAG) application for asking questions across clinical notes, medical guidelines, reports, and other healthcare documents. It combines semantic search, optional BM25 ranking, a MedQuAD general medical knowledge base, and configurable large-language-model (LLM) providers to produce answers with source citations and retrieval metadata.
 
-> **Important:** ClinIQ is an educational and research tool. It is not a medical device and does not replace a qualified healthcare professional, diagnosis, or treatment plan.
+> **Important:** This system is an educational and research tool. It is not a medical device and does not replace a qualified healthcare professional, diagnosis, or treatment plan.
 
 ## What it does
 
@@ -182,10 +182,10 @@ python -m backend.api.main
 
 When `frontend\dist` exists, FastAPI serves the compiled client at <http://localhost:8000>.
 
-## Using ClinIQ
+## Using the QA system
 
 1. Open **Documents** and upload a clinical note, guideline, report, or supported text file.
-2. Wait for processing to complete. ClinIQ extracts text, chunks it, creates embeddings, and persists the document index.
+2. Wait for processing to complete. The system extracts text, chunks it, creates embeddings, and persists the document index.
 3. Open **Chat**, select the document scope if needed, and ask a focused question.
 4. Review the answer alongside its cited source chunks and retrieval details.
 5. Continue the conversation with follow-up questions; the current session retains up to 20 turns.

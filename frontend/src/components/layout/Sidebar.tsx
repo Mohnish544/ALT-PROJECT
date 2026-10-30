@@ -40,8 +40,8 @@ export function Sidebar() {
         </div>
         {!sidebarCollapsed && (
           <div className="sidebar-brand-text">
-            <span className="sidebar-brand-name">MedLens</span>
-            <span className="sidebar-brand-tagline">Document Intelligence</span>
+            <span className="sidebar-brand-name">Retrieval-Based Intelligent QA</span>
+            <span className="sidebar-brand-tagline">Healthcare Intelligence</span>
           </div>
         )}
       </div>

@@ -50,7 +50,7 @@ const QUERY_STEPS: StepProps[] = [
 export default function Architecture() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-      <Header title="How It Works" subtitle="MedLens RAG pipeline — from upload to cited answer" />
+      <Header title="How It Works" subtitle="Retrieval-based RAG pipeline — from upload to cited answer" />
 
       <div className="page-content">
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-8)', alignItems: 'start' }}>
@@ -108,7 +108,7 @@ export default function Architecture() {
         <div style={{ marginTop: 'var(--space-8)', background: 'var(--color-bg-surface)', border: '1px solid var(--color-border-subtle)', borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
           <div style={{ padding: 'var(--space-4) var(--space-5)', background: 'var(--color-bg-surface-alt)', borderBottom: '1px solid var(--color-border-subtle)' }}>
             <div className="section-title">Hybrid Retrieval Logic</div>
-            <div className="section-subtitle">How MedLens decides between document and knowledge base</div>
+            <div className="section-subtitle">How retrieval decides between document and knowledge base</div>
           </div>
           <div style={{ padding: 'var(--space-5)', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 'var(--space-4)' }}>
             {[

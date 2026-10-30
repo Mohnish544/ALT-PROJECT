@@ -150,7 +150,7 @@ export default function Chat() {
             <div className="empty-state-title">Start a conversation</div>
             <div className="empty-state-body">
               {readyDocs.length > 0
-                ? 'Ask questions about your documents. MedLens retrieves relevant passages and generates grounded, cited answers.'
+                ? 'Ask questions about your documents. The system retrieves relevant passages and generates grounded, cited answers.'
                 : 'No documents indexed yet. Upload a document to ask document-specific questions, or ask general medical questions using the knowledge base.'}
             </div>
             {readyDocs.length === 0 && (
