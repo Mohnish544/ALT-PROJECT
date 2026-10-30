@@ -1,4 +1,4 @@
-# ClinIQ
+# ClinIQ — Context-Aware Healthcare Document Intelligence
 
 > Context-aware question answering for healthcare documents
 

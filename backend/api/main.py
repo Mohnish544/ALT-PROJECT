@@ -80,7 +80,7 @@ async def lifespan(app: FastAPI):
 
 def create_app() -> FastAPI:
     app = FastAPI(
-        title="MedLens API",
+        title="ClinIQ API",
         description="Retrieval-Augmented QA for Healthcare Documents",
         version="1.0.0",
         docs_url="/api/docs",
